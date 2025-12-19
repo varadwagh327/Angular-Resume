@@ -1,0 +1,67 @@
+.experience-section {
+  h2 {
+    color: #2563eb;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e5e7eb;
+  }
+
+  .experience-item {
+    margin-bottom: 2rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .experience-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+      gap: 1rem;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      h3 {
+        color: #1f2937;
+        font-size: 1.25rem;
+        margin-bottom: 0.25rem;
+      }
+
+      .company {
+        color: #6b7280;
+        font-weight: 500;
+        margin-bottom: 0;
+      }
+
+      .duration {
+        background-color: rgba(37, 99, 235, 0.1);
+        color: #2563eb;
+        padding: 0.25rem 0.75rem;
+        border-radius: 15px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        white-space: nowrap;
+      }
+    }
+
+    .responsibilities {
+      list-style-position: outside;
+      padding-left: 1.5rem;
+      margin: 0;
+
+      li {
+        color: #4b5563;
+        line-height: 1.7;
+        margin-bottom: 0.5rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

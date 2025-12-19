@@ -1,0 +1,19 @@
+<section class="education-section card">
+  <h2>Education & Certifications</h2>
+  
+  <div class="education-content" *ngIf="education">
+    <h3> {{ education.degree }}</h3>
+    <p class="university">{{ education.university }}</p>
+    <p class="year">{{ education.year }}</p>
+  </div>
+
+  <div class="certifications" *ngIf="certifications && certifications.length">
+    <h3>Certifications & Achievements</h3>
+    <ul class="cert-list">
+      <li *ngFor="let cert of certifications">
+        <strong>{{ cert.title }}</strong>
+        <span class="issuer">{{ cert.issuer }}</span>
+      </li>
+    </ul>
+  </div>
+</section>

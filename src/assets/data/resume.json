@@ -1,0 +1,132 @@
+{
+  "personalDetails": {
+    "name": "VARAD WAGII",
+    "role": "Frontend Developer",
+    "location": "Pune, IN 411003",
+    "phone": "+91 8421893853",
+    "email": "varadwagh327@gmail.com",
+    "photo": "assets/images/profile.jpg",
+    "portfolioLinks": {
+      "linkedin": "https://www.linkedin.com/in/varad-wagh-028539255",
+      "github": "https://github.com/varadwagh327",
+      "website": "https://tsp-line-web-solutions.onrender.com"
+    }
+  },
+  "professionalSummary": "Frontend Developer skilled in the MERN Stack, Next.js, and React.js, with expertise in creating responsive UIs, managing code via Git/GitHub, and deploying scalable web applications using Vercel and Render.",
+  "technicalSkills": {
+    "frontend": [
+      "React.js",
+      "Angular",
+      "Next.js (App Router)",
+      "JavaScript (ES6+)",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "TypeScript (Basics)",
+      "UI",
+      "Component Reusability",
+      "Performance Optimization"
+    ],
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "Python (Basics)",
+      "PHP (Basics)",
+      "REST APIs",
+      "JWT Authentication"
+    ],
+    "databases": ["MongoDB", "MySQL", "PostgreSQL", "MongoDB Atlas"],
+    "toolsDevOps": [
+      "Git",
+      "GitHub",
+      "Postman",
+      "Linux",
+      "AWS (S3/S5)",
+      "CI/CD Pipelines",
+      "Vercel",
+      "Render"
+    ],
+    "testing": ["Chrome DevTools", "Postman Testing", "Jest (Basics)"]
+  },
+  "workExperience": [
+    {
+      "title": "Junior Software Engineer (Intern)",
+      "company": "Cwayita Technologies India Pvt. Ltd., Pune",
+      "duration": "May 2025 – October 2025",
+      "responsibilities": [
+        "Built and deployed production-ready web applications using Angular, Next.js (App Router), and React.js with SSR, SSG, and ISR.",
+        "Developed responsive, accessible, and pixel-perfect UIs using Angular templates, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Bootstrap, and SCSS.",
+        "Implemented clean and scalable frontend architecture using Angular components, services, and modular structure along with Redux and Context API.",
+        "Integrated authentication and authorization using JWT and NextAuth, including protected routes and role-based access control.",
+        "Consumed RESTful APIs using Angular HttpClient, Node.js, Express.js, and MongoDB with proper error handling and data management.",
+        "Used Git and GitHub for version control, collaboration, branching, and code reviews following SDLC practices.",
+        "Configured CI/CD pipelines and deployed applications using Vercel, Render, and basic Angular build processes."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Admin Dashboard",
+      "technologies": [
+        "Next.js",
+        "NextAuth",
+        "Google Login",
+        "MongoDB",
+        "Chart.js"
+      ],
+      "description": "Developed an admin dashboard using Next.js (App Router) with SSR for performance and SEO. Implemented user authentication with NextAuth including secure login and registration with Google Login. Built responsive UI with React.js and Tailwind CSS.",
+      "github": "https://github.com/varadwagh327/Admin-Google-Login1"
+    },
+    {
+      "title": "Travel in Line – MERN Stack – Cloud Deployment – IB Road – CRUD Operations",
+      "technologies": [
+        "MERN Stack",
+        "AWS (S3)",
+        "Google Login",
+        "JWT Authentication",
+        "Middleware",
+        "CRUD Operations"
+      ],
+      "description": "Developed an IT service management platform with secure Google Login and registration for users. Implemented login to the NFR system and handle emails and manage employee records. Implemented complete CRUD functionality for employee records using Express.js and MongoDB. Built a responsive UI with React.js and Tailwind CSS.",
+      "github": "https://github.com/varadwagh327/TSp-Line-web"
+    },
+    {
+      "title": "CNG-Simple-Line",
+      "technologies": [
+        "MERN Stack",
+        "JWT Authentication",
+        "Middleware",
+        "CRUD Operations"
+      ],
+      "description": "Developed a CNG booking management system using the MERN stack with secure role-based access. Implemented JWT authentication and custom middleware for user and admin roles. Designed a fully responsive and user-friendly UI using React.js and Tailwind CSS.",
+      "github": "https://github.com/varadwagh327/CNG-Simple-Line"
+    },
+    {
+      "title": "IT Books Management",
+      "technologies": ["MERN Stack", "AI", "CRUD Operations", "REST API"],
+      "description": "Built a web app and app to manage and generate IT-related books using Node.js and Gemini AI. Integrated Gemini AI to generate and enhance IT book content dynamically based on user input. Implemented complete CRUD functionality for employee records using Express.js and MongoDB. Designed a responsive UI using React.js and Tailwind CSS.",
+      "github": "https://github.com/varadwagh327/IT-Books"
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Science (B.Sc.) in Computer Science",
+    "university": "Savitribai Phule Pune University",
+    "year": "2022 - 2025"
+  },
+  "certificationsAchievements": [
+    {
+      "title": "Certified MERN Stack Developer",
+      "issuer": "Fortune Cloud Technologies Pvt. Ltd. (2025)"
+    },
+    {
+      "title": "Internship Certificate",
+      "issuer": "Cwayita Technologies India Pvt. Ltd. (May Oct 2025)"
+    },
+    {
+      "title": "React.js Tutorial Certification",
+      "issuer": "Great Learning Academy (2023)"
+    }
+  ],
+  "extraCurricularActivities": [],
+  "references": []
+}

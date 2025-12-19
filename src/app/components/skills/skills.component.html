@@ -1,0 +1,38 @@
+<section class="skills-section card" *ngIf="skills">
+  <h2>Technical Skills</h2>
+  
+  <div class="skill-category" *ngIf="skills.frontend && skills.frontend.length">
+    <h3>Frontend</h3>
+    <div class="skills-list">
+      <span class="tag" *ngFor="let skill of skills.frontend">{{ skill }}</span>
+    </div>
+  </div>
+
+  <div class="skill-category" *ngIf="skills.backend && skills.backend.length">
+    <h3>Backend</h3>
+    <div class="skills-list">
+      <span class="tag" *ngFor="let skill of skills.backend">{{ skill }}</span>
+    </div>
+  </div>
+
+  <div class="skill-category" *ngIf="skills.databases && skills.databases.length">
+    <h3>Databases</h3>
+    <div class="skills-list">
+      <span class="tag" *ngFor="let skill of skills.databases">{{ skill }}</span>
+    </div>
+  </div>
+
+  <div class="skill-category" *ngIf="skills.toolsDevOps && skills.toolsDevOps.length">
+    <h3>Tools & DevOps</h3>
+    <div class="skills-list">
+      <span class="tag" *ngFor="let skill of skills.toolsDevOps">{{ skill }}</span>
+    </div>
+  </div>
+
+  <div class="skill-category" *ngIf="skills.testing && skills.testing.length">
+    <h3>Testing</h3>
+    <div class="skills-list">
+      <span class="tag" *ngFor="let skill of skills.testing">{{ skill }}</span>
+    </div>
+  </div>
+</section>

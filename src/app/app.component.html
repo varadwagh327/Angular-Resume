@@ -1,0 +1,37 @@
+<div class="app-container">
+  <div *ngIf="loading" class="loading">
+    <div class="spinner"></div>
+    <p>Loading resume...</p>
+  </div>
+
+  <div *ngIf="error && !loading" class="error">
+    <p>{{ error }}</p>
+  </div>
+
+  <div *ngIf="resumeData && !loading">
+    <app-header [personalDetails]="resumeData.personalDetails"></app-header>
+
+    <div class="container">
+      <app-summary [summary]="resumeData.professionalSummary"></app-summary>
+
+      <app-skills [skills]="resumeData.technicalSkills"></app-skills>
+
+      <app-experience [workExperience]="resumeData.workExperience"></app-experience>
+    </div>
+
+    <app-projects [projects]="resumeData.projects"></app-projects>
+
+    <div class="container">
+      <app-education 
+        [education]="resumeData.education"
+        [certifications]="resumeData.certificationsAchievements">
+      </app-education>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; {{ getCurrentYear() }} {{ resumeData.personalDetails.name }}. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+</div>

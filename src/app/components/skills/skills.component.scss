@@ -1,0 +1,44 @@
+.skills-section {
+  h2 {
+    color: #2563eb;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e5e7eb;
+  }
+
+  .skill-category {
+    margin-bottom: 1.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      color: #374151;
+      margin-bottom: 0.75rem;
+      font-weight: 600;
+    }
+  }
+
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    .tag {
+      background-color: rgba(37, 99, 235, 0.1);
+      color: #2563eb;
+      padding: 0.4rem 1rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: rgba(37, 99, 235, 0.2);
+        transform: translateY(-2px);
+      }
+    }
+  }
+}

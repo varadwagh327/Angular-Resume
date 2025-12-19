@@ -1,0 +1,48 @@
+<header class="header" *ngIf="personalDetails">
+  <div class="container">
+    <div class="header-content">
+      <div class="profile-section">
+        <div class="profile-image">
+         <img src="assets/images/varadwagh.jpg" alt="Varad Wagh" />
+        </div>
+        <div class="profile-info">
+          <h1>{{ personalDetails.name }}</h1>
+          <h2 class="role">{{ personalDetails.role }}</h2>
+          <div class="contact-info">
+            <div class="contact-item">
+              <span>{{ personalDetails.location }}</span>
+            </div>
+            <div class="contact-item">
+              <span class="icon">📧</span>
+              <a [href]="'mailto:' + personalDetails.email">{{ personalDetails.email }}</a>
+            </div>
+            <div class="contact-item">
+              <span class="icon">📞</span>
+              <a [href]="'tel:' + personalDetails.phone">{{ personalDetails.phone }}</a>
+            </div>
+          </div>
+          <div class="social-links">
+            <a *ngIf="personalDetails.portfolioLinks.linkedin" 
+               [href]="personalDetails.portfolioLinks.linkedin" 
+               target="_blank" 
+               class="social-link">
+              LinkedIn
+            </a>
+            <a *ngIf="personalDetails.portfolioLinks.github" 
+               [href]="personalDetails.portfolioLinks.github" 
+               target="_blank" 
+               class="social-link">
+              GitHub
+            </a>
+            <a *ngIf="personalDetails.portfolioLinks.website" 
+               [href]="personalDetails.portfolioLinks.website" 
+               target="_blank" 
+               class="social-link">
+              Website
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

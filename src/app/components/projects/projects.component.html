@@ -1,0 +1,20 @@
+<section class="projects-section" *ngIf="projects && projects.length">
+  <div class="container">
+    <h2>Projects</h2>
+    
+    <div class="projects-grid">
+      <div class="project-card card" *ngFor="let project of projects">
+        <h3>{{ project.title }}</h3>
+        <div class="technologies">
+          <span class="tag" *ngFor="let tech of project.technologies">{{ tech }}</span>
+        </div>
+        <p class="description">{{ project.description }}</p>
+        <div class="project-links">
+          <a *ngIf="project.github" [href]="project.github" target="_blank" class="btn btn-outline">
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

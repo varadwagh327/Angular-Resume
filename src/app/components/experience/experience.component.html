@@ -1,0 +1,16 @@
+<section class="experience-section card" *ngIf="workExperience && workExperience.length">
+  <h2>Work Experience</h2>
+  
+  <div class="experience-item" *ngFor="let exp of workExperience">
+    <div class="experience-header">
+      <div>
+        <h3>{{ exp.title }}</h3>
+        <p class="company">{{ exp.company }}</p>
+      </div>
+      <span class="duration">{{ exp.duration }}</span>
+    </div>
+    <ul class="responsibilities">
+      <li *ngFor="let responsibility of exp.responsibilities">{{ responsibility }}</li>
+    </ul>
+  </div>
+</section>
