@@ -1,4 +1,4 @@
-// Variables
+
 $primary-color: #2563eb;
 $secondary-color: #1e40af;
 $text-dark: #1f2937;
@@ -8,7 +8,6 @@ $bg-white: #ffffff;
 $border-color: #e5e7eb;
 $accent-color: #10b981;
 
-// Base reset
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +25,6 @@ body {
   line-height: 1.6;
 }
 
-// Typography
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   line-height: 1.3;
@@ -68,7 +66,6 @@ a {
   }
 }
 
-// Container
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -79,7 +76,6 @@ a {
   }
 }
 
-// Utility classes
 .text-center {
   text-align: center;
 }
@@ -99,7 +95,6 @@ a {
 .py-3 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
 .py-4 { padding-top: 2rem; padding-bottom: 2rem; }
 
-// Card styles
 .card {
   background: $bg-white;
   border-radius: 12px;
@@ -119,7 +114,6 @@ a {
   }
 }
 
-// Button styles
 .btn {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -152,7 +146,6 @@ a {
   }
 }
 
-// Tag/Badge styles
 .tag {
   display: inline-block;
   padding: 0.25rem 0.75rem;
@@ -164,7 +157,6 @@ a {
   color: $primary-color;
 }
 
-// Responsive grid
 .grid {
   display: grid;
   gap: 1.5rem;
