@@ -78,7 +78,7 @@
       "github": "https://github.com/varadwagh327/Admin-Google-Login1"
     },
     {
-      "title": "Travel in Line – MERN Stack – Cloud Deployment – IB Road – CRUD Operations",
+      "title": "Trusted Simple Line",
       "technologies": [
         "MERN Stack",
         "AWS (S3)",
@@ -87,7 +87,7 @@
         "Middleware",
         "CRUD Operations"
       ],
-      "description": "Developed an IT service management platform with secure Google Login and registration for users. Implemented login to the NFR system and handle emails and manage employee records. Implemented complete CRUD functionality for employee records using Express.js and MongoDB. Built a responsive UI with React.js and Tailwind CSS.",
+      "description": "Developed an IT services management platform featuring secure Google authentication for user login and registration. Built an HR module to manage employee data and send emails efficiently. Implemented full CRUD operations for employee records using Express.js and MongoDB. Designed a fully responsive and clean user interface using React.js and Tailwind CSS.",
       "github": "https://github.com/varadwagh327/TSp-Line-web"
     },
     {
@@ -120,13 +120,11 @@
     },
     {
       "title": "Internship Certificate",
-      "issuer": "Cwayita Technologies India Pvt. Ltd. (May Oct 2025)"
+      "issuer": "Cravita Technologies India Pvt. Ltd. (May Oct 2025)"
     },
     {
       "title": "React.js Tutorial Certification",
       "issuer": "Great Learning Academy (2023)"
     }
-  ],
-  "extraCurricularActivities": [],
-  "references": []
+  ]
 }

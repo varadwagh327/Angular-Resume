@@ -46,8 +46,6 @@ export interface ResumeData {
     title: string;
     issuer: string;
   }>;
-  extraCurricularActivities: any[];
-  references: any[];
 }
 
 @Injectable({
