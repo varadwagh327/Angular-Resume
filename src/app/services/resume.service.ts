@@ -46,6 +46,18 @@ export interface ResumeData {
     title: string;
     issuer: string;
   }>;
+  recommendations: {
+    name: string;
+    role: string;
+    phone: string;
+    email: string;
+    photo: string;
+    rating: number;
+    portfolioLinks: {
+      title: string;
+      description: string;
+    };
+  };
 }
 
 @Injectable({

@@ -1,0 +1,74 @@
+.recommendations-section {
+    padding: 2rem 0;
+    background-color: #f9fafb;
+  
+    .profile-image {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      
+        @media (max-width: 768px) {
+          width: 120px;
+          height: 120px;
+        }
+      }
+    h2 {
+      color: #2563eb;
+      margin-bottom: 2rem;
+      text-align: center;
+      font-size: 2rem;
+    }
+  
+    .recommendations-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 1.5rem;
+  
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+      }
+    }
+  
+    .recommendations-card {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+  
+      h3 {
+        color: #1f2937;
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+      }
+  
+      .technologies {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+  
+        .tag {
+          background-color: rgba(16, 185, 129, 0.1);
+          color: #10b981;
+          font-size: 0.85rem;
+        }
+      }
+  
+      .description {
+        color: #4b5563;
+        line-height: 1.7;
+        flex-grow: 1;
+        margin-bottom: 1rem;
+      }
+    }
+    
+  }
+  

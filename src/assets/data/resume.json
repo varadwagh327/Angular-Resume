@@ -126,5 +126,33 @@
       "title": "React.js Tutorial Certification",
       "issuer": "Great Learning Academy (2023)"
     }
+  ],
+  "recommendations": [
+    {
+      
+    "name": "Omkar Pande",
+    "phone": "+91 9975808816",
+    "photo": "assets/images/profile.jpg",
+      "title": "Frontend Developer",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, sapiente soluta odio modi expedita optio iste, mollitia autem omnis explicabo molestiae delectus. Excepturi voluptas quibusdam quasi ea cum. Rerum, fuga."
+     
+    },
+    {
+      
+    "name": "Aditya Kakade",
+    "phone": "+91 3032405640",
+    "photo": "assets/images/profile.jpg",
+      "title": "Backend Developer",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, sapiente soluta odio modi expedita optio iste, mollitia autem omnis explicabo molestiae delectus. Excepturi voluptas quibusdam quasi ea cum. Rerum, fuga."
+     
+    },
+    {
+      
+    "name": "Sushant Bhor",
+    "phone": "+91 8421893853",
+    "photo": "assets/images/profile.jpg",
+      "title": "Full stack Developer",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, sapiente soluta odio modi expedita optio iste, mollitia autem omnis explicabo molestiae delectus. Excepturi voluptas quibusdam quasi ea cum. Rerum, fuga."
+    }
   ]
 }

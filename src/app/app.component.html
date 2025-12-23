@@ -1,7 +1,7 @@
 <div class="app-container">
   <div *ngIf="loading" class="loading">
     <div class="spinner"></div>
-    <p>Loading resume...</p>
+    <p>Loading resume....</p>
   </div>
 
   <div *ngIf="error && !loading" class="error">
@@ -27,6 +27,8 @@
         [certifications]="resumeData.certificationsAchievements">
       </app-education>
     </div>
+
+    <app-recommendations [recommendations]="resumeData.recommendations"></app-recommendations>
 
     <footer class="footer">
       <div class="container">

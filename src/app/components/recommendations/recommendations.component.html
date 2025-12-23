@@ -1,0 +1,24 @@
+<section class="recommendations-section" *ngIf="recommendations && recommendations.length">
+    <div class="container">
+      <h2>Recommendations</h2>
+      
+      <div class="recommendations-grid">
+
+        <div class="recommendations-card card" *ngFor="let recommendations of recommendations">
+           
+            <div class="profile-image">
+                <img src="assets/images/varadwagh.jpg" alt="Varad Wagh" />
+               </div>
+          <h3>Role: {{ recommendations.title }}</h3>
+          <span></span>
+          <h3>Recommendations Name: {{ recommendations.name }}</h3>
+          <div class="contact-item">
+            <span class="icon">Phone Number:</span>
+            <a [href]="'tel:' + recommendations.phone">{{ recommendations.phone }}</a>
+          </div>
+          <p class="description">{{ recommendations.description }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
